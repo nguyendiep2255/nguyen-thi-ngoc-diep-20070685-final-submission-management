@@ -1,0 +1,41 @@
+Started GET "/" for 127.0.0.1 at 2023-05-27 13:42:53 +0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/nguyenthingocdiep/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.5/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/nguyenthingocdiep/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.5/lib/rails/templates/rails/welcome/index.html.erb (Duration: 2.7ms | Allocations: 637)
+Completed 200 OK in 36ms (Views: 8.9ms | ActiveRecord: 0.0ms | Allocations: 7121)
+
+
+Started GET "/" for 127.0.0.1 at 2023-05-27 13:43:15 +0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/nguyenthingocdiep/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.5/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/nguyenthingocdiep/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.5/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.7ms | Allocations: 296)
+Completed 200 OK in 4ms (Views: 2.7ms | Allocations: 1073)
+
+
+Started GET "/home/top" for 127.0.0.1 at 2023-05-27 13:43:16 +0700
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.6ms | Allocations: 124)
+  Rendered layout layouts/application.html.erb (Duration: 285.8ms | Allocations: 92459)
+Completed 200 OK in 292ms (Views: 289.7ms | Allocations: 93509)
+
+
+Started GET "/home/top" for 127.0.0.1 at 2023-05-27 13:43:23 +0700
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.8ms | Allocations: 2413)
+Completed 200 OK in 6ms (Views: 4.8ms | Allocations: 2692)
+
+
+Started GET "/home/top" for 127.0.0.1 at 2023-05-27 13:46:21 +0700
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 2.4ms | Allocations: 955)
+  Rendered layout layouts/application.html.erb (Duration: 9.5ms | Allocations: 3558)
+Completed 200 OK in 13ms (Views: 11.5ms | Allocations: 4464)
+
+
